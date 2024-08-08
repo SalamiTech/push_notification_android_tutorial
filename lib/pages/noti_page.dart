@@ -17,7 +17,7 @@ class NotiPage extends StatelessWidget {
         children: [
           Text(message.notification!.title.toString()),
           Text(message.notification!.body.toString()),
-          Text(message.data.toString()),
+          Text(message.data.toString(),),
         ],
       ),
     );
